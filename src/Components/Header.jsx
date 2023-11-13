@@ -1,10 +1,19 @@
 import React from 'react'
-import {Menu} from "antd"
+import { Menu } from "antd"
 
 function Header() {
-  return (
-    < Menu />
-  )
+    return (
+        < Menu
+            items={
+                [
+                    {
+                        label: "Home",
+                        key: "home"
+                    }
+                ]
+            }
+        />
+    )
 }
 
 export default Header
